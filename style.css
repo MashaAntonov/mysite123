@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(#FF6883, white);
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+nav a{
+    color: #FF6883;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.why{
+    display: flex;
+    justify-content: space-around;
+}
+.priority{
+    width: 400px;
+}
+.priority h3{
+    width: 300px;
+    background-color: #FFA3B3;
+    padding: 15px;
+    text-align: center;
+}
+.priority-img{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://shop.camellia.ua/public/site/images/why-bg.webp");
+    background-size: cover;
+}
+.priority-img p{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.catalog{
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalog{
+display: flex;
+justify-content: space-between;
+}
+
+.catalog div{
+width: 300px;
+text-align: center;
+}
+
+.catalog img{
+    opacity: 0.8;
+transition: 0.5s;
+position: relative; z-index: 0;
+
+}
+
+.catalog img:hover{
+opacity: 1;
+border: 6px solid pink;
+width: 350px;
+height: 350px;
+z-index: 1;
+padding: 5px;
+transition: 0.5s ease-out;
+
+}
+
+
+section{
+    margin-bottom: 35px;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+}
+.map-contact{
+    width: 400px;
+    text-align: center;
+    color: #FF6883;
+}
+footer{
+    background-image: linear-gradient(#FF6883, white);
+}
